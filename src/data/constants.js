@@ -3,6 +3,7 @@ import SimonGame from "../images/SimonGame.png";
 import SpotifyClone from "../images/SpotifyClone.png";
 import Wanderlust from "../images/Wanderlust.png";
 import WeatherApp from "../images/WeatherApp.png";
+import Postify from "../images/Postify.png";
 
 export const Bio = {
   name: "Aloke Gupta",
@@ -153,6 +154,14 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Postify",
+    description:
+      "'Postify' is a social media app built using the MERN stack, for sharing and discovering captivating moments through photos, focusing on travel and exploration. This website is live at https://dynamic-eclair-17f2cb.netlify.app",
+      image: Postify,
+      github: "https://github.com/Aloke2004/Postify",
+  },
+  {
+    id: 3,
     title: "Classroom Cricket",
     description:
       "Users can play a hand cricket game against the system, complete with interactive gameplay and sound effects to enhance the experience.",
@@ -160,7 +169,7 @@ export const projects = [
       github: "https://github.com/Aloke2004/Classroom-Cricket",
   },
   {
-    id: 3,
+    id: 4,
     title: "Spotify Clone",
     description:
       "The project replicates the look and feel of Spotify's interface with responsive design and smooth UI elements.",
@@ -168,7 +177,7 @@ export const projects = [
       github: "https://github.com/Aloke2004/Spotify-Clone",
   },
   {
-    id: 4,
+    id: 5,
     title: "Simon Game",
     description:
       "This project features an interactive memory game where users repeat color sequences to progress.",
@@ -176,7 +185,7 @@ export const projects = [
       github: "https://github.com/Aloke2004/Simon-Game",
   },
   {
-    id: 5,
+    id: 6,
     title: "Weather App",
     description:
       "A Weather App built with React that provides real-time weather updates by fetching data from a weather API. Users can search for any city to view current weather conditions, temperature, humidity, and more in a simple and intuitive interface.",
