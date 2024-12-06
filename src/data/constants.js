@@ -17,7 +17,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution in my feild and achieve great things.",
   github: "https://github.com/Aloke2004",
   resume:
-    "https://drive.google.com/file/d/1M3rA52XnuPiXGvouGhLLxsZ7k0LNagSY/view?usp=drive_link",
+    "https://drive.google.com/file/d/1yLXXO2dTC2Wuc8ul26gExKCdUkxyqfmm/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/aloke-gupta-61aa74271/",
   insta: "https://www.instagram.com/aloke_gupta_/",
 };
