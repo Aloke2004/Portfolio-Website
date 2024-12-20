@@ -2,8 +2,8 @@ import ClassroomCricket from "../images/ClassroomCricket.png";
 import SimonGame from "../images/SimonGame.png";
 import SpotifyClone from "../images/SpotifyClone.png";
 import Wanderlust from "../images/Wanderlust.png";
-import WeatherApp from "../images/WeatherApp.png";
 import Postify from "../images/Postify.png";
+import dashboard from "../images/dashboard.png";
 
 export const Bio = {
   name: "Aloke Gupta",
@@ -32,23 +32,18 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
-        name: "Redux",
+        name: "Next Js",
         image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV9uzErWz9EXqZDxZ5lP9aYpMz8eK6rr5X3w&s",
       },
       {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        name: "Shadcn UI",
+        image:
+          "https://avatars.githubusercontent.com/u/139895814?v=4",
       },
       {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+        name: "Tailwind CSS",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQsMjGv1FnFCZh_0mayzMeAu0f-LbicOoufA&s",
       },
       {
         name: "Material UI",
@@ -78,6 +73,11 @@ export const skills = [
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+      {
+        name: "NeonDB",
+        image:
+          "https://yt3.googleusercontent.com/PCC9a0H4mCzn4HyQn8IydElbZ7lkeXXVS8oIInO93wWc4p65qNuN-XYWM0Ima9_kG_EXZEdhzQ=s900-c-k-c0x00ffffff-no-rj",
       },
     ],
   },
@@ -130,6 +130,11 @@ export const skills = [
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
       },
       {
+        name: "Vercel",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqwNwDUq_S0U6wDzS60c45kVK5zpxF-03wsQ&s",
+      },
+      {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -146,22 +151,30 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: "WanderLust",
+    title: "Expense Tracker",
     description:
-      "'WnaderLust' is a platform where users can log in to create their own property listings, explore listings added by others, and leave detailed reviews for each stay. This website is live at https://wanderlust-8jdv.onrender.com/listings",
-    image: Wanderlust,
-    github: "https://github.com/Aloke2004/WanderLust",
+      "Expense Tracker is a full-stack web application built using Next.js that helps users effectively track and manage their expenses.",
+    image: dashboard,
+    github: "https://github.com/Aloke2004/Expense-Tracker",
   },
   {
     id: 2,
     title: "Postify",
     description:
-      "'Postify' is a social media app built using the MERN stack, for sharing and discovering captivating moments through photos, focusing on travel and exploration. This website is live at https://dynamic-eclair-17f2cb.netlify.app",
+      "'Postify' is a social media app built using the MERN stack, for sharing and discovering captivating moments through photos, focusing on travel and exploration.",
       image: Postify,
       github: "https://github.com/Aloke2004/Postify",
   },
   {
     id: 3,
+    title: "WanderLust",
+    description:
+      "'WanderLust' is a platform where users can log in to create their own property listings, explore listings added by others, and leave detailed reviews for each stay. This website is live at https://wanderlust-8jdv.onrender.com/listings",
+    image: Wanderlust,
+    github: "https://github.com/Aloke2004/WanderLust",
+  },
+  {
+    id: 4,
     title: "Classroom Cricket",
     description:
       "Users can play a hand cricket game against the system, complete with interactive gameplay and sound effects to enhance the experience.",
@@ -169,7 +182,7 @@ export const projects = [
       github: "https://github.com/Aloke2004/Classroom-Cricket",
   },
   {
-    id: 4,
+    id: 5,
     title: "Spotify Clone",
     description:
       "The project replicates the look and feel of Spotify's interface with responsive design and smooth UI elements.",
@@ -177,20 +190,12 @@ export const projects = [
       github: "https://github.com/Aloke2004/Spotify-Clone",
   },
   {
-    id: 5,
+    id: 6,
     title: "Simon Game",
     description:
       "This project features an interactive memory game where users repeat color sequences to progress.",
       image: SimonGame,
       github: "https://github.com/Aloke2004/Simon-Game",
-  },
-  {
-    id: 6,
-    title: "Weather App",
-    description:
-      "A Weather App built with React that provides real-time weather updates by fetching data from a weather API. Users can search for any city to view current weather conditions, temperature, humidity, and more in a simple and intuitive interface.",
-      image: WeatherApp,
-      github: "https://github.com/Aloke2004/Weather-App",
   },
 ];
 
